@@ -1,0 +1,112 @@
+body{
+    margin:auto;
+}
+.imageContainer{
+    background:url('food-wallpaper.png');
+    border-style:solid;
+    border-color:white;
+    border-width:30px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#logo{
+    text-align:center;
+    color:red;
+    font-weight:bold;
+    font-size:90px;
+    background:white;
+    height:120px;
+    width:120px;
+    margin:auto;
+    border-radius:50%;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+
+.heading{
+    text-align:center;
+    color:white;
+    font-size:36px;
+}
+
+.locationSelector{
+    margin-top:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.locationDropDown{
+    width:250px;
+    height:60px;
+    border-radius:2%;
+    font-size:20px;
+    border:none;
+}
+.restinput{
+    width:400px;
+    height:60px;
+    border-radius:2%;
+    font-size:20px;
+    border:none;
+} 
+@media screen and (max-width:1024px) {
+    .restinput {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+
+
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:10px;
+}
+
+.quickSearchHeading{
+    color:#192f60;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Poppins;
+    line-height: .1;
+}
+
+.quickSearchSubHeading{
+    color:gray;
+    font-size:20px;
+    font-weight: normal;
+    font-family: Poppins;
+    line-height: 1.5cm;
+}
+
+.tilecontainer{
+    width:350px;
+    height:150px;
+    background-color:#ffffff;
+    box-shadow: 6px 10px 15px black;
+    float:left;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+}
+
+.tileComponent2{
+    width:50%;
+    float: left;
+}
+
+.componentHeading{
+    color:#192f60;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+}
